@@ -1,0 +1,14 @@
+# Binaries go to GitHub Releases only, never into the repository
+*.exe
+*.zip
+release/
+
+# local / secret
+.env*
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
